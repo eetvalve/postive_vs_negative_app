@@ -5,12 +5,10 @@ phases:
     commands:
       - echo installing depencies
       - npm install
-  test:
+  build:
     commands:
       - echo testing started
       - npm run test:unit
-  build:
-    commands:
       - echo building artifacts
       - npm run build
 artifacts:
