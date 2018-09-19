@@ -9,4 +9,9 @@ describe('HelloWorld.vue', () => {
     const msg = 'gg';
     expect(msg).equal('gg')
   });
+
+  it('always fail', () => {
+    const msg = 'gx';
+    expect(msg).equal('gg')
+  });
 });
