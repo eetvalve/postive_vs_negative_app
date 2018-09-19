@@ -11,6 +11,10 @@ phases:
       - npm run test:unit
       - echo building artifacts
       - npm run build
+  post_build:
+    commands:
+      - aws s3 cp dist s3://positive-vs-negative-vue --recursive
+      - echo Build completed on `date`
 artifacts:
     files:
         - '**/*'
