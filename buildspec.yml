@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo installing depencies
+      - npm install
+  test:
+    commands:
+      - echo testing started
+      - npm run test:unit
+  build:
+    commands:
+      - echo building artifacts
+      - npm run build
+artifacts:
+  files:
+    - dist/
