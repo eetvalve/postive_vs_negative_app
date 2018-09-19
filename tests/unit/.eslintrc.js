@@ -3,6 +3,9 @@ module.exports = {
     mocha: true
   },
   rules: {
-    'import/no-extraneous-dependencies': 'off'
+    "comma-dangle": ["error", "never"],
+    'import/no-extraneous-dependencies': 'off',
+    'linebreak-style': 0,
+    'quotes': 'off',
   }
 }
