@@ -12,5 +12,7 @@ phases:
       - echo building artifacts
       - npm run build
 artifacts:
-  files:
-    - ./dist/*
+    files:
+        - '**/*'
+    discard-paths: yes
+    base-directory: 'dist*'
