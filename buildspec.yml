@@ -11,6 +11,7 @@ phases:
       - npm run test:unit
       - echo building artifacts
       - npm run build
-artifacts:
-  files:
-    - dist/
+  artifacts:
+    files:
+      - '*'
+    base-directory: 'dist'
