@@ -1,5 +1,6 @@
 <template>
   <div class="wrapper">
+    
     <div class="top-center">
       <balance-meter/>
     </div>
@@ -13,6 +14,7 @@
         <negative-messages/>
       </div>
 
+<p>Sauli terve!</p>
   </div>
 </template>
 
